@@ -28,3 +28,17 @@ Go
 
 
 
+CREATE TABLE [dbo].[Questions]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Question] VARCHAR(MAX) NULL, 
+    [Option1] VARCHAR(50) NULL, 
+    [Option2] VARCHAR(50) NULL, 
+    [Option3] VARCHAR(50) NULL, 
+    [Option4] VARCHAR(50) NULL, 
+    [Answer] VARCHAR(50) NULL, 
+    [Status] CHAR(1) NULL,
+	[Category] VARCHAR(15),
+	[Type] CHAR(1),
+
+)
